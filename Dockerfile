@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM dockerfile/python
+FROM arca1n/python
 
 # Install Node.js
 RUN \
