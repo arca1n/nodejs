@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM arca1n/python
+FROM armv7/armhf-ubuntu
 
 # Install Node.js
 RUN \
