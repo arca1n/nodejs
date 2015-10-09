@@ -7,6 +7,15 @@
 # Pull base image.
 FROM armv7/armhf-ubuntu
 
+RUN \
+  apt-get update && \
+  apt-get install -y \
+  wget \
+  python \
+  python-dev \
+  python-pip \
+  python-virtualenv
+
 # Install Node.js
 RUN \
   cd /tmp && \
